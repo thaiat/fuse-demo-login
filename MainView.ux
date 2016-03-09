@@ -14,7 +14,7 @@
 			<TextInput TextColor="#fff" PlaceholderColor="#ccc" />
 		</Style>
 		<StatusBarBackground Dock="Top" />
-		<Video Padding="-10" File="Mountaineering.mp4" Layer="Background" AutoPlay="true" IsLooping="true"  StretchMode="UniformToFill" Opacity="0.3" >
+		<Video Padding="-10" File="resources/Mountaineering.mp4" Layer="Background" AutoPlay="true" IsLooping="true"  StretchMode="UniformToFill" Opacity="0.3" >
 			<Blur Radius="5" />
 		</Video>
 		<Grid Rows="1*,1*" >
