@@ -9,13 +9,13 @@ https://www.fusetools.com/downloads
 
 ## How to run
 Run the application in the simulator
-```sh
+```bash
 fuse preview
 ```
 
 Run the application on your device
 Make sure your device is connected via USB
-```sh
+```bash
 # For iOS
 fuse build --target=iOS --run 
 
