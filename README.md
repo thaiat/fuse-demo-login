@@ -2,7 +2,7 @@
 A slick login form built with fuse
 
 <center>
-	<img src="doc/fuse-demo-login.gif" />
+	<img src="doc/fuse-demo-login.gif">
 </center>
 
 ## Pre requisites
