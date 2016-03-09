@@ -1,7 +1,9 @@
 ## fuse-demo-login
 A slick login form built with fuse
 
-<img src="doc/fuse-demo-login.gif" />
+<center>
+	<img src="doc/fuse-demo-login.gif" />
+</center>
 
 ## Pre requisites
 Make sure you have installed fuse
