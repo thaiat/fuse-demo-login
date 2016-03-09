@@ -1,0 +1,39 @@
+<App Theme="Basic" ClearColor="#00134d">
+
+<JavaScript>
+   var Observable = require('FuseJS/Observable');
+
+	var appName = new Observable('My App');
+	module.exports = {
+		appName: appName
+	}
+	</JavaScript>
+	<DockPanel>
+		<Style>
+			<Text TextColor="#fff" />
+			<TextInput TextColor="#fff" PlaceholderColor="#ccc" />
+		</Style>
+		<StatusBarBackground Dock="Top" />
+		<Video Padding="-10" File="Mountaineering.mp4" Layer="Background" AutoPlay="true" IsLooping="true"  StretchMode="UniformToFill" Opacity="0.3" >
+			<Blur Radius="5" />
+		</Video>
+		<Grid Rows="1*,1*" >
+			<StackPanel Alignment="VerticalCenter" >
+				<Text Alignment="Center" Value="{appName}" FontSize="40" />
+				<Text Alignment="Center" Value="Please log in..." />
+			</StackPanel>
+
+			<StackPanel Alignment="VerticalCenter" Padding="20">
+				<TextInput PlaceholderText="username" />
+				<TextInput PlaceholderText="password" IsPassword="true" />
+				<Button Text="Log in" />
+
+
+				<WhileKeyboardVisible>
+					<Move Y="-200"  Duration="0.5" Easing="QuinticOut" DurationBack="0.3" EasingBack="BounceIn"   />
+				</WhileKeyboardVisible>
+			</StackPanel>
+		</Grid>
+	</DockPanel>
+
+</App>
